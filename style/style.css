@@ -1,0 +1,493 @@
+
+.container {
+    width: 100%;
+    font-family: 'YuGothic';
+    color: #333333;
+    margin: 0 auto;
+}
+
+/* img */
+img {
+    width: 100%;
+}
+
+/* a */
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* btn */
+.btn {
+    border-radius: 30px;
+    width: 166px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.16); 
+
+}
+.btn a {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.btn1 {
+    background-color: #FFE000;
+    border: none;
+    width: 151px;
+    height: 48px;
+}
+.btn-flex {
+    display: flex;
+}
+.btn2 {
+    background-color: #109954;
+    margin-right: 10px;
+}
+.btn2 a {
+    color: #fff;
+}
+.btn3 {
+    width:222px;
+    height: 48px;
+    border: 2px solid #109954;
+    background-color: #fff;
+}
+.btn3 a {
+    color: #109954;
+    
+}
+.btn4,.btn5 {
+    background-color:  #109954;
+    color: #fff;
+    border: none;
+}
+.btn4 a ,.btn5 a ,.btn6 a {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.btn6 {
+    margin: 50px auto 100px auto;
+    background-color: #109954;
+    color: #fff;
+    border: none;
+}
+
+
+/* ***** header ***** */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center; 
+    width: 1080px; /*サイズが変わっても1080pxに合わせる*/
+    margin: 0 auto;
+    max-width: 100%;
+}
+.logo img {
+    width: 130px;
+    height: 33px;
+}
+
+/****** mv ******/
+
+.mv {
+    display: flex;
+    margin-top: 91px; 
+    align-items: center; 
+    width: 1080px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mv-left h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+.mv-left p {
+    margin: 35px 0 40px 0;
+    font-size: 16px;
+}
+.mv img{
+    width: 52%;
+}
+
+.service,.about,.news {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/**** heading *****/
+
+.heading {               /*center寄せ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0; 
+    max-width: 100%;
+} 
+.heading h2 {
+    font-size: 36px;
+}
+.heading:before, .heading:after {
+    content: "";
+    height: 4px; 
+    background: #109954; 
+    width: 200px; 
+}
+.heading:before {
+    margin-right: 20px;
+}
+.heading:after {
+    margin: 0 0 0 20px;
+}
+
+
+/* ** service ** */
+.service-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    max-width: 100%;
+    padding: 0 140px;
+    margin: 0 auto;
+}
+
+.service-inner img{
+    margin-bottom: 30px;
+    width: 200px;
+}
+.service-inner p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* about */
+.about-inner {
+    padding: 0 70px;
+    max-width: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
+.about-upper , .about-bottom {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+.about-upper {
+    margin-bottom: 100px;
+}
+.about-bottom {
+    margin-bottom: 20px;
+}
+.about-inner img{
+    width: 48%;
+    height: 50%;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.16); 
+}
+.about-inner img + .about-txt p , .about-txt h3, .btn5 {
+    margin-left: 40px;
+    margin-right: 0;
+}
+.about-txt p {
+    font-size: 16px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.about-txt h3 {
+    color: #109954;
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: left;
+}
+
+
+/**** blog  ******/
+.news-inner {
+    padding: 0 40px;
+    max-width: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
+article {
+    display: flex;
+    position:relative;
+    margin: 18px 0;  
+}
+article .link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+hr {
+    border: 1px solid #D6D6D6;
+    background-color: #D6D6D6;
+}
+.blog-date {
+    display: flex;
+    margin-bottom: 20px;
+}
+time {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 24px;
+}
+.category {
+    background-color: #fff;
+    color: #109954;
+    border: 2px solid #109954;
+    font-weight: bold;
+    width: 101px;
+    height: 26px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+}
+figure img{ 
+    width: 300px;
+    height: 168px;
+    margin-right: 34px;
+}
+article h2 {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+article p {
+    font-size: 16px;
+}
+
+
+
+/**** footer *****/
+footer {
+    height: 135px;
+    background-color: #E8E8E8;
+    max-width: 100%;
+    font-family: 'YuGothic';
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.footer img{
+    margin-top: 25px;
+    width: 70px;
+}
+ul {
+    display: flex;
+    margin-top: 50px;
+}
+li {
+    list-style: none;
+    height: 20px;
+}
+li+ li {
+    border-left: 1px solid #333;
+}
+a {
+    color: #333;
+}
+.footer a{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 18px;
+}
+.footer-txt {
+    text-align: center;   
+}
+small {
+    font-size: 14px;
+}
+
+
+
+
+/* resposible */
+
+@media screen and (max-width: 1080px) {
+    .container {
+        padding: 0 15px;
+    }
+    footer {
+        padding: 0 15px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    .mv img {
+        width: 40%;
+    }
+    .service-inner {
+        padding: 0;
+    }
+    .about-inner {
+        padding: 0 20px;
+    }
+}
+
+/* スマホサイズ */
+@media screen and (max-width: 767px) {
+
+    .logo img{
+        width: 110px;
+        height: 28px;
+    }
+    .btn2,.btn3,.btn4,.btn5,.btn6 {
+        margin: 0 auto;
+    }
+    .btn2 {
+        margin-bottom: 15px;
+    }
+    .btn-flex {
+        display: block;
+        text-align: center;
+    }
+    .mv {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .mv img {
+        margin: 10px  auto 0 auto;
+        width: 100%;
+    }
+    .mv-left {
+        margin: 0;
+    }
+    .mv-left h2 {
+        font-size: 28px;
+        width: 196px;
+        margin: 0 auto;
+    }
+    .mv-left  p{
+        text-align: center;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .heading h2 {
+        font-size: 28px;
+    }
+    .service-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-inner p {
+        margin-bottom: 50px;
+    }
+    .service-inner img {
+        width: 200px;
+    }
+    .s-3 p {
+        margin-bottom: 0;
+    }
+
+    .about-inner {
+        padding: 0;
+    }
+    .about-inner img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about-upper {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .btn4 {
+        margin-bottom: 70px;
+    }
+    .about-bottom {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .about-txt p {
+        margin-right: 0;
+        text-align: left;
+    }
+    .about-txt h3 {
+        text-align: left;
+        font-size: 32px;
+    }
+    .about-inner img + .about-txt h3 {
+        margin-left: 0;
+    }
+
+    .about-inner img + .about-txt p {
+        margin-left: 0;
+    }
+
+    .news-inner {
+        margin-top: 80px;
+        padding: 0;
+    }
+    article {
+        display: block;
+        flex-direction: column;
+    }
+    article .link {
+        margin: 0;
+    }
+    figure {
+        margin: 18px 23px;
+    }
+    figure img {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    time {
+        margin-right: 16px;
+    }
+    .btn6 {
+        width: 166px;
+        height: 48px;
+        margin: 50px auto 115px auto;
+    }
+
+    footer {
+        height: 289px;
+        max-width: 100%;
+    }
+    .footer {
+        display: block;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .footer img {
+        margin-bottom: 23px;
+    }
+    ul {
+        display: block;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0 0 12px 0;
+    }
+    li + li{
+        border: none; 
+    }
+    
+    
+}
+
+
+
+
+/* sourcetreeのgithubとの連携 */
